@@ -32,4 +32,4 @@ There are two heap order properties
             NOTE: To have this convenience of finding the parent and child indices we used 1 based indexing for heaps. 
             
             If you want to follow 0 based indexing, then left child is 2*i+1 and right child is 2*i+2.
-            And parent of an element with index i is i/2 (if i is odd) (i/2)-1 (if i is even).
+            And parent of an element with index i is (i-1)/2
